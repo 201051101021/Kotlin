@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Please select menu"
+         />
+    <CheckBox
+        android:id="@+id/chkSoup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soup"
+        />
+    <CheckBox
+        android:id="@+id/chkSalad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salad"
+        />
+    <CheckBox
+        android:id="@+id/chkSteak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steak"
+        />
+    <CheckBox
+        android:id="@+id/chkPannaCotta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panna Cotta"
+        />
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Calculate Food Expenses"
+        />
+
+    <RadioGroup
+        android:id="@+id/rdGroup1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdstd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UTCC Student"/>
+        <RadioButton
+            android:id="@+id/rdAlumni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UTCC Alumni"/>
+        <RadioButton
+            android:id="@+id/rdOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"/>
+       </RadioGroup>
+    <Button
+        android:id="@+id/btnCalNet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Click Here To Show The Net Expenses"
+        />
+
+</LinearLayout>
